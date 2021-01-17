@@ -1,1 +1,1 @@
-# Finessify-Webapp
+# Finessify-WebApp
