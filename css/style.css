@@ -508,7 +508,7 @@ header.desktop-header-1 .vertical-menu li i {
   margin-right: 20px;
 }
 header.desktop-header-1 .vertical-menu li a:hover {
-  color: #fd6600;
+  color: #fd5000;
 }
 header.desktop-header-1 .vertical-menu li .switch {
   font-size: 30px;
@@ -922,6 +922,13 @@ section.home {
   padding: 0;
   height: 100vh;
   min-height: 100vh;
+}
+section.home .intro {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 section.home .intro {
   margin: auto;
