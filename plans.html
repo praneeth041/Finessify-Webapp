@@ -123,8 +123,8 @@
           </a>
         </div>
         <ul class="vertical-menu scrollspy" width="100%;" style="margin-top: 15%;">
-          <li class="active" style="background-color: #ffac48; margin-left: -12.5%;">
-            <a href="profile.html" style="font-size: 25px;"><img src="images\icons\profile.png" style="margin-right: 5.5%; margin-left: 11.5%; margin-top: -2%;"></i>Profile</a>
+          <li>
+            <a href="profile.html" style="font-size: 25px;"><img src="images\icons\profile.png" style="margin-right: 5.5%; margin-top: -2%;"></i>Profile</a>
           </li>
           <li>
             <a href="home.html" style="font-size: 25px;"><img src="images\icons\home.png" style="margin-right: 7%; margin-top: -2%;"></i>Home</a>
@@ -132,8 +132,8 @@
           <li>
             <a href="guides.html" style="font-size: 25px;"><img src="images\icons\community.png" style="margin-right: 6.5%; margin-top: -2%;"></i>Guides</a>
           </li>
-          <li>
-            <a href="plans.html" style="font-size: 25px;"><img src="images\icons\plans.png" style="margin-right: 6.5%; margin-top: -2%;"></i>Plans</a>
+          <li class="active" style="background-color: #ffac48; margin-left: -12.5%;">
+            <a href="plans.html" style="font-size: 25px;"><img src="images\icons\plans.png" style="margin-right: 6.5%;  margin-left: 10.8%; margin-top: -2%;"></i>Plans</a>
           </li>
         </ul>
       </nav>
@@ -145,31 +145,37 @@
       </div>
     </header>
 
-<!-- main layout -->
-<main class="content">
-  <!-- section home -->
-	<section class="home d-flex align-items-center">
+    <!-- main layout -->
+    <main class="content">
+     	<!-- section home -->
+	<section id="home" class="home d-flex align-items-center">
 		<div class="container">
+
 			<!-- intro -->
-			<div class="intro align-items-center">
-        <!-- Profile Info -->
-        <img src="images/icons/profile 2 larger.png" alt="Profile Pic"/>
-        <h1 style="color: black; font-size: 45px;">John Doe</h1>
-        <p style="margin-top: -2%;">23 Year-Old Male</p>
-        <!-- Goals-->
-        <div class="col-md-6 text-center align-items-center w3-center" style="margin-left: 25%;">
-        <div class="service-box rounded data-background padding-30 text-center shadow-yellow text-center align-items-center w3-center" data-color="#F9D74C" style="margin-top: 6%; margin-bottom: 6%;">
-          <h3 class="mb-3 mt-0" style="font-size: 30px; color: black;">Goals:</h3>
-          <strong><p class="mb-0" style="margin-top: 3%; color: black;">1.)   Get more Exercise</p></strong>
-          <strong><p class="mb-0" style="margin-top: 3%; color: black;">2.)   Drink Water on a Regular Basis</p></strong>
-          <strong><p class="mb-0" style="margin-top: 3%; color: black;">3.)   Chat with Friends Everyday</p></strong>
-        </div>
-        </div>
-        <br>
-        <img src="images/Graph.png" alt="Graphs"/>
-      </div>
+			<div class="intro">
+				<div class="col-md-6" style="margin-left: 25%; padding-bottom: -5%;">
+                    <div class="text-center" style="margin-top: -4%;">
+                    <i><h3 class="mb-3 mt-0" style="font-size: 30px; color: black; margin-top: -25%;">Finessify Premium</h3></i>
+                </div>
+            <div class="service-box rounded data-background padding-30  shadow-yellow" data-color="#F9D74C" style="margin-top: 6%; padding-bottom: -5%;">
+            <div style="padding-bottom: -5%;">
+              <p  style="margin-top: 1%; color: black; font-size: 20px;">Pay a monthly price of $6.99 to <b>go ad free</b> on Finessify and access premium features such as having a <b>custom schedule curated for you</b> by our advanced Machine Learning algorithms!</p>
+            </div>
+            </div>
+            <br>
+            </div>
+            </div>
+
+				<!-- buttons -->
+				<div class="mt-4  align-items-center text-center">
+          <a href="#contact" class="btn btn-default text-center">Get Premium Today!</a>
+          <br><br><br>
+          <img src="images/algorithm 1.png" alt="Algorithm"/>
+				</div>
+            </div>
 		</div>
 	</section>
+      <div class="spacer" data-height="96"></div>
     </main>
 
     <!-- Go to top button -->

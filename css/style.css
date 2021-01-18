@@ -2521,8 +2521,8 @@ body.dark .blog-page-section .blog-single {
 }
 
 .shadow-yellow {
-  -webkit-box-shadow: 0px 5px 20px 0px rgba(249, 215, 76, 0.5);
-  box-shadow: 0px 5px 20px 0px rgba(249, 215, 76, 0.5);
+  -webkit-box-shadow: 0px 5px 20px 0px #ffac48;
+  box-shadow: 0px 5px 20px 0px #ffac48;
 }
 
 .padding-30 {
